@@ -105,6 +105,12 @@ body {
   border-radius: 100%;
 }
 
+.carousel-item {
+  width: 75%; /* Mengubah lebar gambar menjadi 75% */
+  display: block;
+  margin: 0 auto; /* Meletakkan gambar di tengah */
+}
+
 .breadcrumb {
   font-size: 15px;
 }

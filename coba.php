@@ -47,8 +47,8 @@
               <div class="feature-icon-1 bg-success bg-gradient mb-4">
                 <i class="bi bi-geo-alt"></i>
               </div>
-              <h3>Tips Mitigasi Gempa Bumi</h3>
-              <p class="mb-4">Halaman menampilkan langkah-langkah yang perlu dilakukan saat terjadi bencana gempa bumi.</p>
+              <h3>Titik Evakuasi</h3>
+              <p class="mb-4">Halaman Titik Evakuasi menampilkan daftar lokasi evakuasi saat terjadi bencana.</p>
               <a href="tipsgempa.php" class="btn btn-success rounded-pill px-4 py-2">
                 Tampilkan <i class="bi-chevron-right ms-2"></i>
               </a>
@@ -62,8 +62,8 @@
               <div class="feature-icon-1 bg-success bg-gradient mb-4">
                 <i class="bi bi-list-check"></i>
               </div>
-              <h3>Tips Mitigasi Tsunami</h3>
-              <p class="mb-4">Halaman menampilkan langkah-langkah yang perlu dilakukan saat terjadi bencana tsunami.</p>
+              <h3>Tips Mitigasi Bencana</h3>
+              <p class="mb-4">Halaman Tips Mitigasi Bencana menampilkan langkah-langkah yang perlu dilakukan saat terjadi bencana.</p>
               <a href="tipstsunami.php" class="btn btn-success rounded-pill px-4 py-2">
                 Tampilkan <i class="bi-chevron-right ms-2"></i>
               </a>
