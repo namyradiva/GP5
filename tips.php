@@ -18,7 +18,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
   <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="assets/fontawesome-free/css/all.min.css">
 
   <!-- Font -->
@@ -35,7 +35,7 @@
       <div class="alert alert-light d-flex align-items-center mb-5" role="alert">
         <i class="bi-info-circle text-success me-3 fs-3"></i>
         <div>
-          Selamat Datang di <strong>Aplikasi SAFE</strong>. Silakan pilih halaman yang ingin ditampilkan.
+          Selamat Datang di <strong>Aplikasi SESAR</strong>. Silakan pilih halaman yang ingin ditampilkan.
         </div>
       </div>
 
@@ -45,7 +45,7 @@
           <div class="card border-0 shadow-sm">
             <div class="card-body p-5">
               <div class="feature-icon-1 bg-success bg-gradient mb-4">
-                <i class="bi bi-geo-alt"></i>
+                <i class="bi bi-globe-asia-australia"></i>
               </div>
               <h3>Tips Mitigasi Gempa Bumi</h3>
               <p class="mb-4">Halaman menampilkan langkah-langkah yang perlu dilakukan saat terjadi bencana gempa bumi.</p>
@@ -60,7 +60,7 @@
           <div class="card border-0 shadow-sm">
             <div class="card-body p-5">
               <div class="feature-icon-1 bg-success bg-gradient mb-4">
-                <i class="bi bi-list-check"></i>
+                <i class="bi bi-tsunami"></i>
               </div>
               <h3>Tips Mitigasi Tsunami</h3>
               <p class="mb-4">Halaman menampilkan langkah-langkah yang perlu dilakukan saat terjadi bencana tsunami.</p>
@@ -70,7 +70,10 @@
             </div>
           </div>
         </div>
-         
+        <!-- kembali ke home -->
+        <div align="left">
+              <a href="index.php" class="btn btn-danger mt-2">Back to Home</a>
+          </div>  
     </div>
   </main>
 

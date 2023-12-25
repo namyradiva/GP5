@@ -1,7 +1,6 @@
 <?php
 require 'functions.php';
 
-
 ?>
 <!doctype html>
 <html lang="en" class="h-100">
@@ -60,14 +59,17 @@ require 'functions.php';
       <div class="card border-0 shadow-sm">
         <div class="card-body p-4">
           <div class="table-responsive">
+          <div align="right">
+              <a href="peta.php" class="btn btn-primary mb-3">Unduh Peta Evakuasi</a>
+          </div>
             <table id="tabel-antrian" class="table table-bordered table-striped table-hover" width="100%">
               <thead>
                 <tr>
                   <th>No</th>
                   <th>Nama Lokasi</th>
                   <th>Alamat</th>
+                  <th>Keterangan</th>
                   <th>Lokasi</th>
-                  <th>Peta Evakuasi</th>
                 </tr>
               </thead>
               <?php
@@ -84,8 +86,8 @@ require 'functions.php';
                               <td><?php echo $no;?></td>
                               <td><?php echo $data["nama"]; ?></td>
                               <td><?php echo $data["alamat"];   ?></td>
-                              <td><a href="<?php echo $data['titik']; ?>"target="_blank" class="btn btn-primary" role="button">Lihat di Google Maps ></a></td>
-                              <td><a href="<?php echo "peta/gambar/".$data['peta']; ?>"target="_blank" class="btn btn-primary" role="button">Lihat Peta Evakuasi ></a></td>
+                              <td><?php echo $data["keterangan"];   ?></td>
+                              <td><a href="<?php echo $data['titik']; ?>"target="_blank" class="btn btn-success" role="button">Lihat di Google Maps ></a></td>
                           </tr>
                           </tbody>
                           <?php

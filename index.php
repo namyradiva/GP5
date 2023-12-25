@@ -35,7 +35,7 @@
       <div class="alert alert-light d-flex align-items-center mb-5" role="alert">
         <i class="bi-info-circle text-success me-3 fs-3"></i>
         <div>
-          Selamat Datang di <strong>Aplikasi SAFE</strong>. Silakan pilih halaman yang ingin ditampilkan.
+          Selamat Datang di <strong>Aplikasi SESAR</strong>. Silakan pilih halaman yang ingin ditampilkan.
         </div>
       </div>
 
